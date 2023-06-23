@@ -1,0 +1,41 @@
+.calendar {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .calendar_head {
+    border-radius: 10px;
+    background-color:#32afdc;
+    text-align: center;
+    color: white;
+  }
+  
+  .calendar_grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+  }
+  
+  .calendar-cell {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: #0b2630;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
+  .current-day {
+    color: white;
+    background-color: #32afdc;
+  }
+
+  .day-of-week{
+    background-color: #32afdc;
+  }
+
+
+  
+  
